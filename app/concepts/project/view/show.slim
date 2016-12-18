@@ -1,0 +1,13 @@
+p
+  strong Name:
+  = name
+p
+  strong Description:
+  = description
+p
+  strong Active:
+  = active
+
+= link_to 'Edit', edit_project_path(model)
+'|
+= link_to 'Back', projects_path

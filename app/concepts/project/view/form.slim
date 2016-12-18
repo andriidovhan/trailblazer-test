@@ -1,0 +1,10 @@
+= simple_form_for model.contract do |f|
+  = f.error_notification
+
+  .form-inputs
+    = f.input :name
+    = f.input :description
+    = f.input :active
+
+  .form-actions
+    = f.button :submit
